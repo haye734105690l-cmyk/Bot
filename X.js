@@ -21,7 +21,7 @@ const TelegramBot = require("node-telegram-bot-api");
 // =============================
 //  ضع توكن البوت هنا (من BotFather)
 // =============================
-const BOT_TOKEN = "8473267630:AAFt02-QzJub4PvlgNKLuQ3EsSkBbJJ-aks";
+const BOT_TOKEN = "8253365858:AAGuCH__O-srm3gv0KznDlgC43A4B8WkK9M";
 
 const TIKTOK_URL_PATTERN = /(https?:\/\/)?(www\.|vm\.|vt\.|m\.)?tiktok\.com\/\S+/i;
 
@@ -30,7 +30,7 @@ const USER_AGENT =
   "AppleWebKit/537.36 (KHTML, like Gecko) " +
   "Chrome/120.0.0.0 Safari/537.36";
 
-if (!BOT_TOKEN || BOT_TOKEN === "8473267630:AAFt02-QzJub4PvlgNKLuQ3EsSkBbJJ-aks") {
+if (!BOT_TOKEN || BOT_TOKEN === "8253365858:AAGuCH__O-srm3gv0KznDlgC43A4B8WkK9M") {
   console.log("8473267630:AAFt02-QzJub4PvlgNKLuQ3EsSkBbJJ-aks");
   process.exit(1);
 }
